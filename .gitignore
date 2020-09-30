@@ -1,0 +1,7 @@
+#####################
+#####-GITIGNORE-#####
+#####################
+
+./backend/Config.php
+./backend/sendEmail.php
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QRProject</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+</head>
+<body id='body'>
+
+	<h2>QRProject</h2>
+	<div id='p'>
+			
+	</div>
+
+	<div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+
+<!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+
+	<div>
+		<form id='form' accept-charset="utf-8">
+
+			<input type="text" name="nome" placeholder="Digite seu nome" id='nome'>
+			<input type="text" name="cpf" placeholder="Digite seu cpf" id='cpf'>
+			<input type="text" name="email" placeholder="Digite seu E-mail" id='email'>
+			<input type="text" name="telefone" placeholder="Digite telefone para contato" id='telefone'>
+ 	
+			<button type="submit" form='form' id='btnsend'>Enviar</button>
+		</form>
+	</div>
+	<script src="./javascript/app.js" type="text/javascript" charset="utf-8" async defer></script>
+	
+</body>
+</html>

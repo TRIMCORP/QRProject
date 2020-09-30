@@ -1,0 +1,11 @@
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+User-agent: *
+Disallow: / 
+
+<Files *.*>
+order allow,deny
+deny from all
+</Files>
